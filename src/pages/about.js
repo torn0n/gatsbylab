@@ -7,8 +7,8 @@ import Morceau from "../components/morceau"
 export default () => (
   <Layout>
     <div style={{ color: `purple` }}>
-      <p>Such wow. Very React.</p>
-      <Morceau text="et j'aime les frites !" />
+      <p>React c'est génial !</p>
+      <Morceau text="Message" />
       <Link to="/">Go back</Link>
     </div>
   </Layout>
