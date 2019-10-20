@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Thomas Ornon - Développeur Full Stack`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Thomas Ornon - Développeur web Full Stack`,
+    description: `Thomas Ornon : Développeur Web Full Stack et Mobile. Angular, React, Vue.js, Ionic, GraphQL, Node.js, Docker, Kubernetes, AWS, tout m'intéresse ! N'hésitez pas à me contacter pour échanger !`,
     author: `@tornon`,
   },
   plugins: [
@@ -21,8 +21,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#121317`,
+        theme_color: `#121317`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
