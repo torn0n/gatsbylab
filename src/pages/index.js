@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import { Cat } from "react-kawaii"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -7,23 +8,19 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <div style={{ color: `purple` }}>
+    <SEO title="Accueil" keywords={[`gatsby`, `application`, `react`]} />
+    <Cat size={320} mood="excited" color="#596881" />
+    <div>
       <h1>Bonjour à tous ! </h1>
       <p>
-        Je suis Thomas Ornon, ingénieur fraichement diplomé et passionné par le
-        développement web.
+        Je suis <b>Thomas Ornon</b>, Développeur Web Full Stack et Mobile !
       </p>
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
+      <p>
+        Angular, React, Vue.js, Ionic, GraphQL, Node.js, Docker, Kubernetes,
+        AWS, tout m'intéresse !
+      </p>
+      <p>N'hésitez pas à me contacter pour échanger !</p>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
-    <br />
-    <Link to="/about/">Go to about page</Link>
-    <br />
-    <Link to="/about-css-modules/">Go to about-css-modules page</Link>
   </Layout>
 )
 
